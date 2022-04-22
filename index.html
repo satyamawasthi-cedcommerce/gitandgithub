@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 
-<body>
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -22,8 +21,14 @@
     <li>other cats</li>
   </ol>
   <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-    <input type="text" required>
+    <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
+    <label for= "indoor">
+      <input id="indoor" type="radio" name="indoor-outdoor"> Indoor
+      </label>
+      <label for= "outdoor">
+      <input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor
+      </label>
   </form>
 </main>
 <footer id=footer>Copyright Cat Photo App</footer>
